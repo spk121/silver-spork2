@@ -1,0 +1,32 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+server
+main
+
+# Editor/IDE files
+*~
+.*.swp
+.*.swo
+*.bak
+.vscode/
+.idea/
+
+# Dependency directories
+build/
+dist/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+vgcore.*
+core
+
+# Binary and executable
+/server
+/main
